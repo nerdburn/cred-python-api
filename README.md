@@ -13,5 +13,5 @@ source ./venv/bin/activate
 
 # Run
 ```
-uvicorn app:app --reload --log-level debug
+uvicorn app.main:app --reload --log-level debug
 ```
